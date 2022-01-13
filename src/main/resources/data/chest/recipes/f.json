@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:chest"
+    },
+    "1": {
+      "item": "minecraft:diamond"
+    },
+    "2": {
+      "item": "minecraft:chest"
+    },
+    "3": {
+      "item": "minecraft:obsidian"
+    },
+    "4": {
+      "item": "minecraft:obsidian"
+    },
+    "5": {
+      "item": "minecraft:obsidian"
+    },
+    "6": {
+      "item": "minecraft:pink_tulip"
+    },
+    "7": {
+      "item": "minecraft:diamond"
+    },
+    "8": {
+      "item": "minecraft:pink_tulip"
+    }
+  },
+  "result": {
+    "item": "chest:chest_5",
+    "count": 1
+  }
+}

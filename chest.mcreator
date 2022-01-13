@@ -15,6 +15,14 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "chest_5"
+    },
+    {
+      "name": "F",
+      "type": "recipe",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "f"
     }
   ],
   "variable_elements": [],

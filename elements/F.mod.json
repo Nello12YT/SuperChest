@@ -1,0 +1,46 @@
+{
+  "_fv": 24,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "Blocks.CHEST"
+      },
+      {
+        "value": "Items.DIAMOND"
+      },
+      {
+        "value": "Blocks.CHEST"
+      },
+      {
+        "value": "Blocks.OBSIDIAN"
+      },
+      {
+        "value": "Blocks.OBSIDIAN"
+      },
+      {
+        "value": "Blocks.OBSIDIAN"
+      },
+      {
+        "value": "Blocks.RED_FLOWER#7"
+      },
+      {
+        "value": "Items.DIAMOND"
+      },
+      {
+        "value": "Blocks.RED_FLOWER#7"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:Chest5"
+    },
+    "name": "f",
+    "namespace": "mod"
+  }
+}
