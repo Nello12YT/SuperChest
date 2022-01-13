@@ -1,0 +1,52 @@
+{
+  "mod_elements": [
+    {
+      "name": "Lol",
+      "type": "gui",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lol"
+    },
+    {
+      "name": "Chest5",
+      "type": "block",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chest_5"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "block.ddddddddddd.chest_5": "Chest 5",
+      "block.chest.chest_5": "Chest 5"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "chest",
+    "modName": "chest",
+    "version": "0.0.1",
+    "description": "Chest con slot 183",
+    "author": "Nello12YT",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.16.5",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "net.mcreator.chest",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202100353117
+}
