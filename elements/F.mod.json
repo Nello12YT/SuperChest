@@ -28,13 +28,13 @@
         "value": "Blocks.OBSIDIAN"
       },
       {
-        "value": "Blocks.RED_FLOWER#7"
+        "value": "Items.DYE#5"
       },
       {
         "value": "Items.DIAMOND"
       },
       {
-        "value": "Blocks.RED_FLOWER#7"
+        "value": "Items.DYE#5"
       }
     ],
     "recipeReturnStack": {
