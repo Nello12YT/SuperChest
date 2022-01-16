@@ -33,14 +33,6 @@
       "registry_name": "super_chest"
     },
     {
-      "name": "G",
-      "type": "block",
-      "sortid": 5,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "g"
-    },
-    {
       "name": "Autogive",
       "type": "procedure",
       "sortid": 7,
@@ -59,15 +51,15 @@
   ],
   "variable_elements": [
     {
-      "name": "primavoltaentrato",
-      "type": "logic",
-      "scope": "player_lifetime",
-      "value": "false"
-    },
-    {
       "name": "firstenter",
       "type": "logic",
       "scope": "player_persistent",
+      "value": "false"
+    },
+    {
+      "name": "primavoltaentrato",
+      "type": "logic",
+      "scope": "player_lifetime",
       "value": "false"
     }
   ],
@@ -75,7 +67,6 @@
   "language_map": {
     "en_us": {
       "block.ddddddddddd.chest_5": "Chest 5",
-      "block.chest.g": "G",
       "block.chest.chest_5": "Chest 5",
       "itemGroup.tabsuper_chest": "Super Chest"
     }

@@ -1,22 +1,9 @@
 package net.mcreator.chest.procedures;
 
-import net.minecraftforge.items.ItemHandlerHelper;
-import net.minecraftforge.fml.common.Mod;
-import net.minecraftforge.eventbus.api.SubscribeEvent;
-import net.minecraftforge.event.entity.player.PlayerEvent;
-
-import net.minecraft.item.ItemStack;
-import net.minecraft.entity.player.PlayerEntity;
-import net.minecraft.entity.Entity;
-
-import net.mcreator.chest.block.Chest5Block;
-import net.mcreator.chest.ChestModVariables;
-import net.mcreator.chest.ChestMod;
-
-import java.util.Map;
-import java.util.HashMap;
+import net.minecraftforge.eventbus.api.Event;
 
 public class AutogiveProcedure {
+
 	@Mod.EventBusSubscriber
 	private static class GlobalTrigger {
 		@SubscribeEvent
@@ -39,7 +26,9 @@ public class AutogiveProcedure {
 				ChestMod.LOGGER.warn("Failed to load dependency entity for procedure Autogive!");
 			return;
 		}
+
 		Entity entity = (Entity) dependencies.get("entity");
+
 		if ((entity.getCapability(ChestModVariables.PLAYER_VARIABLES_CAPABILITY, null)
 				.orElse(new ChestModVariables.PlayerVariables())).primavoltaentrato == true) {
 			{
@@ -64,4 +53,5 @@ public class AutogiveProcedure {
 			}
 		}
 	}
+
 }

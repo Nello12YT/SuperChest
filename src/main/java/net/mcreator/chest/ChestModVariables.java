@@ -71,22 +71,22 @@ public class ChestModVariables {
 		@Override
 		public INBT writeNBT(Capability<PlayerVariables> capability, PlayerVariables instance, Direction side) {
 			CompoundNBT nbt = new CompoundNBT();
-			nbt.putBoolean("primavoltaentrato", instance.primavoltaentrato);
 			nbt.putBoolean("firstenter", instance.firstenter);
+			nbt.putBoolean("primavoltaentrato", instance.primavoltaentrato);
 			return nbt;
 		}
 
 		@Override
 		public void readNBT(Capability<PlayerVariables> capability, PlayerVariables instance, Direction side, INBT inbt) {
 			CompoundNBT nbt = (CompoundNBT) inbt;
-			instance.primavoltaentrato = nbt.getBoolean("primavoltaentrato");
 			instance.firstenter = nbt.getBoolean("firstenter");
+			instance.primavoltaentrato = nbt.getBoolean("primavoltaentrato");
 		}
 	}
 
 	public static class PlayerVariables {
-		public boolean primavoltaentrato = false;
 		public boolean firstenter = false;
+		public boolean primavoltaentrato = false;
 
 		public void syncPlayerVariables(Entity entity) {
 			if (entity instanceof ServerPlayerEntity)
@@ -148,8 +148,8 @@ public class ChestModVariables {
 				if (!context.getDirection().getReceptionSide().isServer()) {
 					PlayerVariables variables = ((PlayerVariables) Minecraft.getInstance().player.getCapability(PLAYER_VARIABLES_CAPABILITY, null)
 							.orElse(new PlayerVariables()));
-					variables.primavoltaentrato = message.data.primavoltaentrato;
 					variables.firstenter = message.data.firstenter;
+					variables.primavoltaentrato = message.data.primavoltaentrato;
 				}
 			});
 			context.setPacketHandled(true);
