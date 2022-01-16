@@ -9,7 +9,7 @@ import net.minecraft.item.ItemStack;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.entity.Entity;
 
-import net.mcreator.chest.block.Chest5Block;
+import net.mcreator.chest.item.GuideBookItem;
 import net.mcreator.chest.ChestModVariables;
 import net.mcreator.chest.ChestMod;
 
@@ -51,7 +51,7 @@ public class AutogiveProcedure {
 			}
 		} else {
 			if (entity instanceof PlayerEntity) {
-				ItemStack _setstack = new ItemStack(Chest5Block.block);
+				ItemStack _setstack = new ItemStack(GuideBookItem.block);
 				_setstack.setCount((int) 1);
 				ItemHandlerHelper.giveItemToPlayer(((PlayerEntity) entity), _setstack);
 			}
