@@ -1,0 +1,29 @@
+{
+  "display": {
+    "background": "minecraft:textures/block/stone.png",
+    "icon": {
+      "item": "chest:fierum"
+    },
+    "title": {
+      "translate": "advancements.fierum_taken.title"
+    },
+    "description": {
+      "translate": "advancements.fierum_taken.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "fierum_taken": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "experience": 1,
+    "recipes": [
+      "chest:f"
+    ]
+  }
+}

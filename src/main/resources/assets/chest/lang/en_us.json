@@ -1,8 +1,10 @@
 {
+  "advancements.fierum_taken.title": "Fierum Taken",
   "block.chest.fierum_ore": "Fierum Ore",
   "block.ddddddddddd.chest_5": "Chest 5",
   "item.chest.guide_book": "Guide Book",
   "block.chest.chest_5": "Chest 5",
+  "advancements.fierum_taken.descr": "Hai Preso il Fierum",
   "itemGroup.tabsuper_chest": "Super Chest",
   "item.chest.fierum": "Fierum"
 }

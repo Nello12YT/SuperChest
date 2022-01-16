@@ -28,13 +28,13 @@
         "value": "Blocks.OBSIDIAN"
       },
       {
-        "value": "Items.DYE#5"
+        "value": "CUSTOM:Fierum"
       },
       {
         "value": "Items.DIAMOND"
       },
       {
-        "value": "Items.DYE#5"
+        "value": "CUSTOM:Fierum"
       }
     ],
     "recipeReturnStack": {

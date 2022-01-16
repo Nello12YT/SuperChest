@@ -73,6 +73,7 @@ public class ChestModVariables {
 			CompoundNBT nbt = new CompoundNBT();
 			nbt.putBoolean("firstenter", instance.firstenter);
 			nbt.putBoolean("primavoltaentrato", instance.primavoltaentrato);
+			nbt.putBoolean("firsttimedestroy", instance.firsttimedestroy);
 			return nbt;
 		}
 
@@ -81,12 +82,14 @@ public class ChestModVariables {
 			CompoundNBT nbt = (CompoundNBT) inbt;
 			instance.firstenter = nbt.getBoolean("firstenter");
 			instance.primavoltaentrato = nbt.getBoolean("primavoltaentrato");
+			instance.firsttimedestroy = nbt.getBoolean("firsttimedestroy");
 		}
 	}
 
 	public static class PlayerVariables {
 		public boolean firstenter = false;
 		public boolean primavoltaentrato = false;
+		public boolean firsttimedestroy = false;
 
 		public void syncPlayerVariables(Entity entity) {
 			if (entity instanceof ServerPlayerEntity)
@@ -123,6 +126,7 @@ public class ChestModVariables {
 		clone.firstenter = original.firstenter;
 		if (!event.isWasDeath()) {
 			clone.primavoltaentrato = original.primavoltaentrato;
+			clone.firsttimedestroy = original.firsttimedestroy;
 		}
 	}
 
@@ -150,6 +154,7 @@ public class ChestModVariables {
 							.orElse(new PlayerVariables()));
 					variables.firstenter = message.data.firstenter;
 					variables.primavoltaentrato = message.data.primavoltaentrato;
+					variables.firsttimedestroy = message.data.firsttimedestroy;
 				}
 			});
 			context.setPacketHandled(true);

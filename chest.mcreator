@@ -111,6 +111,30 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "fierum_ore"
+    },
+    {
+      "name": "Fierumprocedure",
+      "type": "procedure",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fierumprocedure",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "FierumTaken",
+      "type": "achievement",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fierum_taken"
     }
   ],
   "variable_elements": [
@@ -125,15 +149,23 @@
       "type": "logic",
       "scope": "player_lifetime",
       "value": "false"
+    },
+    {
+      "name": "firsttimedestroy",
+      "type": "logic",
+      "scope": "player_lifetime",
+      "value": "false"
     }
   ],
   "sound_elements": [],
   "language_map": {
     "en_us": {
+      "advancements.fierum_taken.title": "Fierum Taken",
       "block.chest.fierum_ore": "Fierum Ore",
       "block.ddddddddddd.chest_5": "Chest 5",
       "item.chest.guide_book": "Guide Book",
       "block.chest.chest_5": "Chest 5",
+      "advancements.fierum_taken.descr": "Hai Preso il Fierum",
       "itemGroup.tabsuper_chest": "Super Chest",
       "item.chest.fierum": "Fierum"
     }
