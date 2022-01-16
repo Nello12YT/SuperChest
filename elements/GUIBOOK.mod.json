@@ -1,0 +1,81 @@
+{
+  "_fv": 24,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 345,
+    "height": 177,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": false,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "label",
+        "data": {
+          "text": "RECIPE BOOK",
+          "color": {
+            "value": -65536,
+            "falpha": 0.0
+          },
+          "name": "RECIPE BOOK",
+          "x": 184,
+          "y": 39
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "dddd.png",
+          "use1Xscale": false,
+          "name": "dddd.png",
+          "x": 44,
+          "y": 51
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "RIGHT CLICK TO OPEN THE GUI",
+          "color": {
+            "value": -16763905,
+            "falpha": 0.0
+          },
+          "name": "RIGHT CLICK TO OPEN THE GUI",
+          "x": 174,
+          "y": 63
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "d.png",
+          "use1Xscale": false,
+          "name": "d.png",
+          "x": 254,
+          "y": 74
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "CRAFTING",
+          "color": {
+            "value": -65281,
+            "falpha": 0.0
+          },
+          "name": "CRAFTING",
+          "x": 205,
+          "y": 132
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}
