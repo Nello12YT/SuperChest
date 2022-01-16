@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "chest:block/fierum_ore"
+    },
+    "facing=east": {
+      "model": "chest:block/fierum_ore",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "chest:block/fierum_ore",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "chest:block/fierum_ore",
+      "y": 270
+    }
+  }
+}

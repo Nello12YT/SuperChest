@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "chest:blocks/fierum_ore_texture",
+    "up": "chest:blocks/fierum_ore_texture",
+    "north": "chest:blocks/fierum_ore_texture",
+    "east": "chest:blocks/fierum_ore_texture",
+    "south": "chest:blocks/fierum_ore_texture",
+    "west": "chest:blocks/fierum_ore_texture",
+    "particle": "chest:blocks/fierum_ore_texture"
+  }
+}

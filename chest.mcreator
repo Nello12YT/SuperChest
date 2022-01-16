@@ -103,6 +103,14 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "fierum"
+    },
+    {
+      "name": "FierumOre",
+      "type": "block",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fierum_ore"
     }
   ],
   "variable_elements": [
@@ -122,6 +130,7 @@
   "sound_elements": [],
   "language_map": {
     "en_us": {
+      "block.chest.fierum_ore": "Fierum Ore",
       "block.ddddddddddd.chest_5": "Chest 5",
       "item.chest.guide_book": "Guide Book",
       "block.chest.chest_5": "Chest 5",
