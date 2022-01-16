@@ -31,14 +31,6 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "super_chest"
-    },
-    {
-      "name": "G",
-      "type": "block",
-      "sortid": 5,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "g"
     }
   ],
   "variable_elements": [],
@@ -46,7 +38,6 @@
   "language_map": {
     "en_us": {
       "block.ddddddddddd.chest_5": "Chest 5",
-      "block.chest.g": "G",
       "block.chest.chest_5": "Chest 5",
       "itemGroup.tabsuper_chest": "Super Chest"
     }
