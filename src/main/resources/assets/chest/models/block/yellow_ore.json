@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "chest:blocks/img_1950",
+    "up": "chest:blocks/img_1950",
+    "north": "chest:blocks/img_1950",
+    "east": "chest:blocks/img_1950",
+    "south": "chest:blocks/img_1950",
+    "west": "chest:blocks/img_1950",
+    "particle": "chest:blocks/img_1950"
+  }
+}
