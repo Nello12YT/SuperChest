@@ -95,6 +95,14 @@
           }
         ]
       }
+    },
+    {
+      "name": "Fierum",
+      "type": "item",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fierum"
     }
   ],
   "variable_elements": [
@@ -117,7 +125,8 @@
       "block.ddddddddddd.chest_5": "Chest 5",
       "item.chest.guide_book": "Guide Book",
       "block.chest.chest_5": "Chest 5",
-      "itemGroup.tabsuper_chest": "Super Chest"
+      "itemGroup.tabsuper_chest": "Super Chest",
+      "item.chest.fierum": "Fierum"
     }
   },
   "foldersRoot": {
