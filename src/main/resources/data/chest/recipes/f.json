@@ -2,28 +2,28 @@
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:chest"
-    },
-    {
-      "item": "minecraft:diamond"
-    },
-    {
-      "item": "minecraft:chest"
-    },
-    {
-      "item": "minecraft:obsidian"
-    },
-    {
-      "item": "minecraft:obsidian"
-    },
-    {
-      "item": "minecraft:obsidian"
+      "item": "chest:fierum"
     },
     {
       "item": "chest:fierum"
     },
     {
-      "item": "minecraft:diamond"
+      "item": "chest:fierum"
+    },
+    {
+      "item": "chest:fierum"
+    },
+    {
+      "item": "minecraft:chest"
+    },
+    {
+      "item": "chest:fierum"
+    },
+    {
+      "item": "chest:fierum"
+    },
+    {
+      "item": "chest:fierum"
     },
     {
       "item": "chest:fierum"
