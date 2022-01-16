@@ -47,6 +47,14 @@
           }
         ]
       }
+    },
+    {
+      "name": "GuideBook",
+      "type": "item",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "guide_book"
     }
   ],
   "variable_elements": [
@@ -67,6 +75,7 @@
   "language_map": {
     "en_us": {
       "block.ddddddddddd.chest_5": "Chest 5",
+      "item.chest.guide_book": "Guide Book",
       "block.chest.chest_5": "Chest 5",
       "itemGroup.tabsuper_chest": "Super Chest"
     }
