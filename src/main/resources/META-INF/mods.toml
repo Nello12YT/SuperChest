@@ -4,13 +4,13 @@ license="Academic Free License v3.0"
 
 [[mods]]
 modId="chest"
-version="0.0.1"
+version="1.16.5-0.0.3"
 displayName="Superchest"
 credits="Created using mod maker MCreator - https://mcreator.net/about"
 displayURL="https://mcreator.net"
 authors="Nello12YT"
 description='''
-Chest con slot 183
+Chest with slot 183
 '''
 
 [[dependencies.chest]]

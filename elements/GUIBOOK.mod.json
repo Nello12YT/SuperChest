@@ -47,16 +47,6 @@
         }
       },
       {
-        "type": "image",
-        "data": {
-          "image": "d.png",
-          "use1Xscale": false,
-          "name": "d.png",
-          "x": 254,
-          "y": 74
-        }
-      },
-      {
         "type": "label",
         "data": {
           "text": "CRAFTING",
@@ -65,8 +55,18 @@
             "falpha": 0.0
           },
           "name": "CRAFTING",
-          "x": 205,
-          "y": 132
+          "x": 170,
+          "y": 161
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "cattura.png",
+          "use1Xscale": true,
+          "name": "cattura.png",
+          "x": 236,
+          "y": 128
         }
       }
     ],

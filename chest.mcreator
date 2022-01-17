@@ -177,10 +177,9 @@
   "workspaceSettings": {
     "modid": "chest",
     "modName": "Superchest",
-    "version": "0.0.1",
-    "description": "Chest con slot 183",
+    "version": "1.16.5-0.0.3",
+    "description": "Chest with slot 183",
     "author": "Nello12YT",
-    "websiteURL": "https://mcreator.net",
     "license": "Academic Free License v3.0",
     "disableForgeVersionCheck": true,
     "serverSideOnly": false,

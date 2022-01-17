@@ -51,8 +51,8 @@ public class GUIBOOKGuiWindow extends ContainerScreen<GUIBOOKGui.GuiContainerMod
 		Minecraft.getInstance().getTextureManager().bindTexture(new ResourceLocation("chest:textures/dddd.png"));
 		this.blit(ms, this.guiLeft + 3, this.guiTop + 19, 0, 0, 128, 71, 128, 71);
 
-		Minecraft.getInstance().getTextureManager().bindTexture(new ResourceLocation("chest:textures/d.png"));
-		this.blit(ms, this.guiLeft + 213, this.guiTop + 42, 0, 0, 128, 135, 128, 135);
+		Minecraft.getInstance().getTextureManager().bindTexture(new ResourceLocation("chest:textures/cattura.png"));
+		this.blit(ms, this.guiLeft + 195, this.guiTop + 96, 0, 0, 148, 65, 148, 65);
 
 		RenderSystem.disableBlend();
 	}
@@ -75,7 +75,7 @@ public class GUIBOOKGuiWindow extends ContainerScreen<GUIBOOKGui.GuiContainerMod
 	protected void drawGuiContainerForegroundLayer(MatrixStack ms, int mouseX, int mouseY) {
 		this.font.drawString(ms, "RECIPE BOOK", 143, 7, -65536);
 		this.font.drawString(ms, "RIGHT CLICK TO OPEN THE GUI", 133, 31, -16763905);
-		this.font.drawString(ms, "CRAFTING", 164, 100, -65281);
+		this.font.drawString(ms, "CRAFTING", 129, 129, -65281);
 	}
 
 	@Override
